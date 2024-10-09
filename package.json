@@ -1,0 +1,50 @@
+{
+  "name": "robust-slider",
+  "version": "1.0.0",
+  "description": "This package allows seamless, continuous sliding of text, images, and cards, offering multiple customizable features for an engaging user experience.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "postbuild2": "postcss src/styles.css -o dist/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anis-raja/robust-slider.git"
+  },
+  "keywords": [
+    "robust-slider",
+    "slider",
+    "react slider",
+    "image slider",
+    "loop slider",
+    "gallery",
+    "slideshow",
+    "carousel",
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "javascript",
+    "typescript",
+    "smooth",
+    "animation",
+    "continuous",
+    "magic",
+    "loop",
+    "best"
+  ],
+  "author": "anisraja",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/anis-raja/robust-slider/issues"
+  },
+  "homepage": "https://github.com/anis-raja/robust-slider#readme",
+  "devDependencies": {
+    "cssnano": "^7.0.6",
+    "postcss-cli": "^11.0.0",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
